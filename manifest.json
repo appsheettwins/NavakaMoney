@@ -1,9 +1,0 @@
-{
-  "short_name": "ค่าใช้จ่าย",
-  "name": "ระบบบันทึกค่าใช้จ่ายวิสามัญ",
-  "start_url": "index.html",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "display": "standalone",
-  "orientation": "portrait"
-}
