@@ -4,21 +4,31 @@
   <base target="_top">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="วิสามัญ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>ค่าใช้จ่ายวิสามัญ</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="icon-192.png">
+  
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { width: 100%; height: 100%; overflow: hidden; }
-    iframe { display: block; width: 100%; height: 100vh; border: none; }
+    /* ลบ Margin และ Padding ของตัวเว็บออกให้หมดเพื่อไม่ให้เหลือขอบขาว */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* ป้องกันการเลื่อนซ้ำซ้อนภายนอก iframe */
+      background-color: #ffffff;
+    }
+    /* ตั้งค่า iframe ให้เต็มจออย่างแท้จริง */
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+      display: block;
+    }
   </style>
 </head>
 <body>
+
   <iframe scrolling="yes" src="https://script.google.com/macros/s/AKfycbwaK3xTahXAQO2VTRXeOA9V099aMucQjBsZFxrg0ME2ypWlKg0JYq5solfhulQigT0S/exec"></iframe>
+
 </body>
 </html>
