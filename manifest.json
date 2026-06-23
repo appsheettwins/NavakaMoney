@@ -1,21 +1,9 @@
 {
-  "name": "ค่าใช้จ่ายวิสามัญ",
-  "short_name": "วิสามัญ",
-  "start_url": "/",
-  "display": "standalone",
+  "short_name": "ค่าใช้จ่าย",
+  "name": "ระบบบันทึกค่าใช้จ่ายวิสามัญ",
+  "start_url": "index.html",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "orientation": "portrait-primary",
-  "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "display": "standalone",
+  "orientation": "portrait"
 }
