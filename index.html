@@ -8,19 +8,20 @@
   <title>ค่าใช้จ่ายวิสามัญ</title>
   
   <style>
-    /* ลบ Margin และ Padding ของตัวเว็บออกให้หมดเพื่อไม่ให้เหลือขอบขาว */
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 100%;
-      overflow: hidden; /* ป้องกันการเลื่อนซ้ำซ้อนภายนอก iframe */
+      /* ใช้ dvh เพื่อคำนวณความสูงตามพื้นที่หน้าจอที่เหลืออยู่จริงของแต่ละเบราว์เซอร์ */
+      height: 100dvh; 
+      overflow: hidden;
       background-color: #ffffff;
     }
-    /* ตั้งค่า iframe ให้เต็มจออย่างแท้จริง */
+    
     iframe {
       width: 100%;
-      height: 100vh;
+      /* ปรับ iframe ให้ใช้ความสูงแบบ dvh ด้วยเช่นกัน */
+      height: 100dvh;
       border: none;
       display: block;
     }
